@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.middle {
+  flex: 0.2;
+  display: flex;
+  gap: 5px;
+}
+
+.middle .input {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+}
+
+.middle .input input {
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.middle .input button {
+  border: none;
+  background-color: #303030;
+}
